@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: black;
+}
+
+.clock{
+   
+    height: 20vh;
+    width: 30vw;
+    display: flex;
+    position: absolute;
+    left:35%;
+    top:40%;
+padding: 1.5rem;
+border: .2rem solid white;
+border-radius: 4rem ;
+
+}
+.hour{
+
+height: 12vh;
+width: 10vw;
+color: white;
+ font-size: 1.5rem;
+    text-align: center;
+    padding: 1.5rem;
+
+}
+.minutes{
+   
+    height: 12vh;
+    width: 10vw;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 1.5rem;
+}
+.seconds{
+   
+    height: 12vh;
+    width: 10vw;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 1.5rem;
+}
+.time{
+   
+    height: 12vh;
+    width: 10vw;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 1.5rem;
+}
